@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--3.2 Buat resource menu di res/menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".forecast">
+    <!--3.3 tambahkan 1 item ke dalam menu dengan id action_refresh-->
+    <!--3.4 Atur judul item menggunakan strings.xml-->
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="1"
+        android:title="@string/action_refresh"
+        app:showAsAction="ifRoom"/>
+</menu>
